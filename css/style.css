@@ -43,13 +43,15 @@ body{
 .text-area{
     margin-left: 88px;
 }
-.text-area .heading{
+
+.heading{
     font-size: 60px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 900;
     border-left: 5px solid crimson;
     
 }
+
 .heading-decription{
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
@@ -80,6 +82,9 @@ button{
 }
 
 /*----------Mission page styling-------*/
+.mission{
+    margin-bottom: 200px;
+}
 .mission .mission-heading{
     text-align: center;
     font-size: 30px;
@@ -133,3 +138,36 @@ button{
 }
 
 /*----------Team section styling-------*/
+.team{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 200px;
+}
+.team-image img{
+    width:320px;
+    height:345px;
+    border-radius: 20px;
+    box-shadow: 7px 5px 10px rgb(219, 195, 200);
+}
+    /*for team-1 styling*/
+.team-1-image{
+    width: 25%;
+    margin-left: 90px;
+}
+.team-1-description{
+    width: 60%;
+    margin-top: -60px;
+    margin-right: 80px;
+}
+    /*for team-2 styling*/
+
+.team-2-description{
+    width: 60%;
+    margin-top: -60px;
+    margin-left: 80px;
+}
+.team-2-image{
+    width: 25%;
+    margin-right: 60px;
+}
