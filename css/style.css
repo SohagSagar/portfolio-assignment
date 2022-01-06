@@ -1,9 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*navigation bar styling*/
 
+.logo h3 a{
+    font-size: 30px;
+}
 .list-items li{
     list-style: none;
     display: inline;
@@ -23,6 +28,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin-bottom: 80px;
+    margin-top: 20px;
     
 }
 .nav-bar a{
@@ -49,6 +55,8 @@ body{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 900;
     border-left: 5px solid crimson;
+    padding-left: 10px;
+    
     
 }
 
@@ -85,11 +93,12 @@ button{
 .mission{
     margin-bottom: 200px;
 }
-.mission .mission-heading{
+.section-heading{
     text-align: center;
     font-size: 30px;
     font-weight: 900;
 }
+
 .inside-mission{
     display: flex;
     justify-content: space-evenly;
@@ -170,4 +179,49 @@ button{
 .team-2-image{
     width: 25%;
     margin-right: 60px;
+}
+
+/*----------contract section styling-----------*/
+
+.contract-pannel{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.address{
+    width: 40%;
+}
+.customer-messages{
+    width: 40%;
+}
+
+.customer-messages form input{
+
+    display: block;
+    width: 400px;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 5px;
+
+}
+.customer-messages form textarea{
+    width: 405px;
+    
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.address-details h6{
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+/*----------Footer section styling------------*/
+footer{
+    background-color: rgb(228, 196, 196);
+    padding: 5px;
+    
+}
+footer h3{
+    margin-bottom: 0px;
 }
